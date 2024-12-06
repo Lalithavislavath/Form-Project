@@ -1,0 +1,44 @@
+.error{
+    background: linear-gradient(to right, #ecdb8f, #f7b77b);
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 12px rgba(0,0,0,2);
+   margin: auto;
+   padding: 50px;
+   margin:auto;
+   margin-top: 10%;
+   width:30%;
+   height: 30%;  
+}
+h1{
+    text-align: center;
+    color: blue;
+    font-weight: 400px;
+}
+.email{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 2px 4px 12px rgba(0,0,0,1);
+    background-color: rgb(141, 20, 125);
+    color: whitesmoke;
+}
+.pwd{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 2px 4px 12px rgba(0,0,0,1);
+    background-color: rgb(141, 20, 125);
+    color: whitesmoke;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 2px 4px 12px rgba(0,0,0,1);
+    width:40%;
+    background-color: rgb(141, 20, 125);
+}
+button:hover{
+    background:  rgb(240, 139, 226);
+}
