@@ -4,7 +4,7 @@ function FormError() {
   const [email, setEmail] = useState(' ')
   const [password, setPassword] = useState(' ')
   const [error, setError] = useState(' ')
-  
+  const  emailpattern= /^[A-Za-z0-9._-].+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$/
  
  
   const handleemail=(e)=>{
@@ -17,10 +17,14 @@ function FormError() {
   const handlesubmit = (e) => {
     e.preventDefault()
     const error = {email: ' ', password: ' ' }
+    error.email =  validemail(email)? ' ': ' Please Enter the valid Email ';
   
     setError(error);
    }
    
+   const validemail = (email) => {
+    return emailpattern.test(email)
+        }
    
      
  
